@@ -1,0 +1,29 @@
+# **el** (Connect to DOM)
+- Vue instance'ın yöneteceği html DOM elementini içerir.
+
+# **data** (Store Data to be used)
+- Vue instance içinde verileri kullanmak için tanımlanan alan.
+
+# **methods** (Methods of this Vue instance )
+- Vue instance içinde kullanılacak fonksiyonların tanımlandığı alan.
+
+# **computed** (Dpendent properties)
+- Vue instance'a ait bağımlı özelliklerin tanımlandığı alandır.
+- Değişken değerin yanı sıra fonksiyon da alabilir.
+- Computed değerlerini metod çağırımı gibi değil değişken kullanımı gibi çağırıyoruz. Return etse dahi parantez koymaya gerek yok.
+- computed içine yazılan bir fonksiyonun çalışma önceliği fonksiyondan sonradır.
+- computed içinde değer veya fonksiyonun tetiklenmesi için içinde kullanılan bir değeri etkiliyor olması gerek. Eğer içinde bulunan değer dışında bir tetikleme gerçekleşirse computed metod çağrımı yapılmaz.
+- Render işlemi tamamlandıkan sonraki yaşam döngüsü anına işaret eder.
+- Computed property ile template içerisinde normal property işlemlerinde olduğu gibi data-bind işlemleri yapmak mümkün.
+- Vue instance computed içinde kullanılan değişkenlerin bağlı olduğu data değerlerinin bilincinde olduğu için güncellemeyi ve method çağırımını yönetebiliyor.
+- computed property ön tanımlı olarak getter tanımlıdır. Ancak, ihtiyaç halinde setter tanımlanabilmektedir.
+- computed property bağlı olduğu değişkeni ekranda sunarken **ön belleğe (cache)** de alır ve bu değişken değişmediği sürece tekrar hesaplama yapmaz.
+- Computed properties her zaman bir değer döndürmek (return) ve eş zamanlı olmak durumundadır.
+- **computed properties diğer verilerden türetilmiş yeni veriler oluşturmak istendiğinde öne çıkmaktadır. Bu verileri dönüştürmek (transform), filtrelemek (filter) ya da değiştirmek (manipulate) istediğimizde rahatlıkla kullanabiliriz.**
+- synchronous işlemler için kullanılan cachable işlemleri içerir.
+
+# **watch** (Execute code upon data changes)
+- Data değişikliğini gözlemlemek ve bunlara tepki vermek için kullanılan property'dir.
+- Componenti içeren data değerleri her değişikliğe uğradığında yakalanır ve tetiklenir.
+- Bir data farklı bir dataya bağlı ise `this.fullName=this.name+" "+this.surName` gibi name veya surName değişikliklerini handle etmek için watch kullanılmalıdır.
+- **asynchronous ve bütçeli operasyonlardaki veri değişikliklerinin takibinde watch değerlendirilebilir bir seçenektir**

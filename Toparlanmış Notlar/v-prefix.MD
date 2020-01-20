@@ -4,6 +4,8 @@
 
 # **v-bind**
 - Vue instance içindeki bir data değerinin verildiği html attribute değerine bind edilmesini sağlar.
+- property önüne ":" konularak kullanım yapılabilir. okunabilirliği daha iyidir.
 
 # **v-on**
 - Vue instance içindeki bir method'un verildiği html attribute değeri ile tetiklenmesini sağlar.
+- property önüne "@" konularak kullanım yapılabilir. okunabilirliği daha iyidir.
