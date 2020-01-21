@@ -9,3 +9,7 @@
 # **v-on**
 - Vue instance içindeki bir method'un verildiği html attribute değeri ile tetiklenmesini sağlar.
 - property önüne "@" konularak kullanım yapılabilir. okunabilirliği daha iyidir.
+
+# **v-model**
+- Data değerine set edilen verilerin html component için model tanımıdır.
+- Set edilen değer her değiştiğinde ilgili html DOM güncellenmektedir.
