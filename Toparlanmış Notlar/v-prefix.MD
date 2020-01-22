@@ -38,3 +38,20 @@
 - Kaynak kod içinde bu bilginin görüntülendiği unutulmamalıdır.
 - Özel durumlar için bir grup html elementin oluşturulup silinmesi yapılmadan show-hide yapılması içini kullanılabilir.
 - performans olarak kesinlikler v-if daha başarılıdır.
+
+# **v-for**
+- bir veri veya kritere göre döngü olarak html dom oluşturmak için kullanılır.
+- v-for içinde index almak için index tutacak değişken ile liste verilmelidir. `v-for="(value_of_the_element, index) in list_of_element">`
+- object v-for verildiğinde "." kullanılarak properties yazdırılabidiği gibi obje verilerini de döngü ile kullanarak yazdırabiliriz.
+- object fields yazdırılırken key ihtiyacı var ise  (field_value, field_name) olarak verilmelidir.
+- belirli bir sayı kadar döngü oluşturmak için v`-for="n in 10"` kullanılır.
+- vue içinde kullanılan array ler için sağlanan fonksiyonalite
+   - push()
+   - pop()
+   - shift()
+   - unshift()
+   - splice()
+   - sort()
+   - reverse()
+   
+   
