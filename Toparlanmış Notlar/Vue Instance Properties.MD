@@ -27,3 +27,30 @@
 - Componenti içeren data değerleri her değişikliğe uğradığında yakalanır ve tetiklenir.
 - Bir data farklı bir dataya bağlı ise `this.fullName=this.name+" "+this.surName` gibi name veya surName değişikliklerini handle etmek için watch kullanılmalıdır.
 - **asynchronous ve bütçeli operasyonlardaki veri değişikliklerinin takibinde watch değerlendirilebilir bir seçenektir**
+
+# **template** (insert html block in vue instance)
+- Vue instance içeriğini ezerek verilmiş html değerlerin render edilmesini sağlarız.
+- el değerine specific html component id bilgisi verilmeden bir isimlendirme yapılarak oluşturulmuş temlate ile yeni bir component oluşturulabilir.
+
+# **beforeCreate**
+- Instance create edilmeden önce yapılacak işlemleri tetikleyen fonksiyondur.
+
+# **created** 
+- Instance create edilirken yapılacak işlemleri tetikleyen fonksiyondur.
+
+# **beforeMount**
+- Mount edilmeden yani bir html element için atama yapılmadan önce yapılacak işlemleri tetikleyen fonkisyondur.
+
+# **mounted**
+- Mount edilirken yapılacak işlemleri tetikleyen fonksiyondur.
+
+# **beforeDestroy**
+- Instance yıkıma uğramadan önce yapılacakları tetikleyen fonksiyondur.
+
+# **destroyed**
+- Instance yıkıma ugrarken yapılacakları tetikleyen fonksiyondur.
+
+
+
+
+
