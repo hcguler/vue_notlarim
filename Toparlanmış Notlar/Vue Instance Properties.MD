@@ -50,6 +50,12 @@
 # **destroyed**
 - Instance yıkıma ugrarken yapılacakları tetikleyen fonksiyondur.
 
+# **components**
+- Vue instance içinde kullanılacak local vue componentlerin isim ve defination şeklinde değerini tutar.
+
+# **props**
+- Hazırlanmış vue component için dışarıdan alınacak property değerlerini dizi olarak sunar.
+
 
 
 
