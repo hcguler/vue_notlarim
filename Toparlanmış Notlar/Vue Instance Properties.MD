@@ -56,7 +56,8 @@
 # **props**
 - Hazırlanmış vue component için dışarıdan alınacak property değerlerini dizi olarak sunar.
 
-
+# **deacticated**
+- Dinamik olarak gösterilen componentlerde keep-alive olarak aktif yaşamı devam ettiriliyorsa, gösterimden kalktığı durumda işlem yapmak için kullanılır.
 
 
 
