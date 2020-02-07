@@ -54,4 +54,5 @@
    - sort()
    - reverse()
    
-   
+# **v-model**
+- Data alanında tutulan bir bilginin input field üzerinden alınmasını sağlar.
