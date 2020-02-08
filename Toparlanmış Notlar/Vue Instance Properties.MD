@@ -59,5 +59,11 @@
 # **deacticated**
 - Dinamik olarak gösterilen componentlerde keep-alive olarak aktif yaşamı devam ettiriliyorsa, gösterimden kalktığı durumda işlem yapmak için kullanılır.
 
+# **directives**
+- local olarak vue instance içerisinde tüm html domlarında kullanılabilir v- prefix ile başlayan directives tanımı yapılmasını sağlar.
+
+
+
+
 
 

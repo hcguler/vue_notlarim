@@ -56,3 +56,7 @@
    
 # **v-model**
 - Data alanında tutulan bir bilginin input field üzerinden alınmasını sağlar.
+   
+# **v-text**
+- html elementinin içine text yerleştirilmesini sağlar (p, span, button gibi).
+
