@@ -63,6 +63,10 @@
 - local olarak vue instance içerisinde tüm html domlarında kullanılabilir v- prefix ile başlayan directives tanımı yapılmasını sağlar.
 
 
+# **Mixins**
+- Kod dublication engellemek için birden fazla vue instance için ortak kullanılan özellikleri bir js file içinde const olarak tanımlanıp mixins anahtarı ile ilgili instance içine eklenerek yapılır.
+- Mevcut vue instance içindeki tüm mixin'ler birleştirilerek instance oluşturulur.
+- mixin içinde olan değerler ile atandığı vue instance içinde olan aynı değerler veya metodlar var ise önce mixin execute edilir sonra ana instance execute edileceği için ana sınıf değerleri ezebilir.
 
 
 
